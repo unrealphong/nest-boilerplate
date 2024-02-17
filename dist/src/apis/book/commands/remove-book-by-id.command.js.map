@@ -1,0 +1,1 @@
+{"version":3,"file":"remove-book-by-id.command.js","sourceRoot":"","sources":["../../../../../src/apis/book/commands/remove-book-by-id.command.ts"],"names":[],"mappings":";;;AAAA,MAAa,qBAAqB;IAGjC,YAAY,IAA2B;QACtC,MAAM,CAAC,MAAM,CAAC,IAAI,EAAE,IAAI,CAAC,CAAC;IAC3B,CAAC;CACD;AAND,sDAMC"}
