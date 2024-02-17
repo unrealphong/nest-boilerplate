@@ -11,7 +11,7 @@ const Configuration: UserConfig = {
    * Resolve and load conventional-changelog-atom from node_modules.
    * Referenced packages must be installed
    */
-  parserPreset: 'conventional-changelog-atom',
+  // parserPreset: 'conventional-changelog-atom',
   /*
    * Resolve and load @commitlint/format from node_modules.
    * Referenced package must be installed
@@ -21,7 +21,23 @@ const Configuration: UserConfig = {
    * Any rules defined here will override rules from @commitlint/config-conventional
    */
   rules: {
-    'type-enum': [RuleConfigSeverity.Error, 'always', ['foo']],
+    'type-enum': [
+      RuleConfigSeverity.Error,
+      'always',
+      [
+        'build',
+        'chore',
+        'ci',
+        'docs',
+        'feat',
+        'fix',
+        'perf',
+        'refactor',
+        'revert',
+        'style',
+        'test',
+      ],
+    ],
   },
   /*
    * Functions that return true if commitlint should ignore the given message.
