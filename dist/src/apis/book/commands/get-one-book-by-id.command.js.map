@@ -1,1 +1,0 @@
-{"version":3,"file":"get-one-book-by-id.command.js","sourceRoot":"","sources":["../../../../../src/apis/book/commands/get-one-book-by-id.command.ts"],"names":[],"mappings":";;;AAAA,MAAa,qBAAqB;IAGjC,YAAY,IAA2B;QACtC,MAAM,CAAC,MAAM,CAAC,IAAI,EAAE,IAAI,CAAC,CAAC;IAC3B,CAAC;CACD;AAND,sDAMC"}
